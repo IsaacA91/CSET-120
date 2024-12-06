@@ -1,3 +1,4 @@
+//Array for food menu
 var menu=['Dragons fire omelet, Elf Breadsticks, Fruit Bowl, Garlic bread, Porridge, Wizard Coffe, Pancakes, Dragons Breath Soup, Snake Sandwich, Knight’s Feast Pie, Phoenix Fire Burger, Enchanted Forest Pie, Wizards Brewed Stew, Dragon Scale Chips, Dragon Equivalent Potion']
 // Dragon’s Fire Omelet
 // A fiery concoction of eggs whipped with a secret blend of spices, filled with smoked meats and roasted Darkwood peppers. Topped with a drizzle of spicy crimson sauce that’s said to ignite the taste buds with dragon-like fervor.
@@ -45,6 +46,10 @@ var menu=['Dragons fire omelet, Elf Breadsticks, Fruit Bowl, Garlic bread, Porri
 // Dragon Equivalent Potion
 // Ever wondred what it was like to feel like a dragon? Drink this to find out!
 
+//Dwarve Alchohol 
+//Practice Alchohol for Dwarves
+
+//Array for giftshop 
 var giftShop=['Health Potion, Magic Potion, Stanima potion, Adventure Tokens, Crystal Ball, Deer Artwork, Dragon figure, Dragon keychains, Goblin Artwork, Goblin figure, Knight Artwork, Orc figure, Plush Dragons, Plush Fawns, Potion Necklace, Runestone sets, Sweater, T-shirt ']
 // Health Potion
 // A radiant red liquid housed in a small, corked glass vial shaped like a heart. This potion glows faintly and is said to revitalize the drinker. Perfect for display or cosplay, it’s a staple for any adventurer’s collection.
@@ -101,3 +106,6 @@ var giftShop=['Health Potion, Magic Potion, Stanima potion, Adventure Tokens, Cr
 
 // T-shirt
 // A casual, magical T-shirt featuring the Restaurant Guild logo and a fun phrase like, “Where Adventurers Feast.” Comes in a variety of styles, including glow-in-the-dark prints.
+
+//Array for Events 
+var event=['Movie Night Event, Potion Classes event, Dance classes Event ']
