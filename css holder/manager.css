@@ -1,20 +1,24 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    height: 100%; /* Ensure the body takes up the full height of the viewport */
+
+html, body {
+    height: 100%; /* Ensures the full height of the viewport */
+}
+
+body {
     display: flex;
     flex-direction: column;
- background-color: aliceblue;
+    background-color: aliceblue;
+    min-height: 100vh; /* Minimum height ensures it always covers the full viewport */
 }
 
 h2 {
     margin-bottom: 21px; /* Adds space between sentences */
     line-height: 1.6; /* Adjusts line spacing inside sentences */
 }
-
 
 /* Navbar */
 .navbar {
@@ -24,19 +28,19 @@ h2 {
     padding: 1rem 2rem;
     background-color: #222;
     color: #fff;
-  }
-.pfp img{
- width: 100px;
- height: 100px;
- border-radius: 100px;
 }
-/* end of nav bar */
+
+.pfp img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
 
 /* Start Of Page */
-.page{
+.page {
     text-align: center;
     padding: 2px;
-    
+    flex: 1; /* Pushes footer to the bottom by taking up remaining space */
 }
 
 /* Orders Section Styling */
@@ -53,7 +57,25 @@ h2 {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-    
-    
+
+/* Footer */
+footer {
+    background-color: #2c2f33;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 10px;
+    width: 100%;
+    margin-top: auto; /* Ensures footer stays at the bottom */
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
 
   
