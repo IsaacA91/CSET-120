@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%; /* Ensure the body takes up the full height of the viewport */
+    display: flex;
+    flex-direction: column;
+ background-color: aliceblue;
+}
+
+h2 {
+    margin-bottom: 21px; /* Adds space between sentences */
+    line-height: 1.6; /* Adjusts line spacing inside sentences */
+}
+
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #222;
+    color: #fff;
+  }
+.pfp img{
+ width: 100px;
+ height: 100px;
+ border-radius: 100px;
+}
+/* end of nav bar */
+
+/* Start Of Page */
+.page{
+    text-align: center;
+    padding: 2px;
+    
+}
+    
+    
+
+  
